@@ -61,4 +61,20 @@ Debéis leer un fichero CSV y reemplazar Portugal por “Pt” y France por “F
 
 ```
 Leer la tabla “Actores” y volcarlo a un fichero JSON.
-`
+```
+
+##### Step 01: Drag "Actor" from dvdrental database as input file and a JSON as output file on the workspace
+
+<img src="Images/Ex03/03.1.png" width="500"/>
+
+##### Step 02: Sync the input and output schema
+
+<img src="Images/Ex03/03.2.png" width="500"/>
+
+##### Step 03: Run Talend job
+
+<img src="Images/Ex03/03.3.png" width="500"/>
+
+##### Step 04: Check the result
+
+<img src="Images/Ex03/03.4.png" width="500"/>
