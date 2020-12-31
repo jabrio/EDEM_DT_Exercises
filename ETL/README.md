@@ -40,3 +40,25 @@ Leer un archivo CSV y escribirlo a fichero JSON en la misma carpeta.
 ```
 Debéis leer un fichero CSV y reemplazar Portugal por “Pt” y France por “Fr”.
 ```
+
+##### Step 01: Put "ALUMNOS.csv" as input file and a JSON as output file on the work space
+
+<img src="Images/Ex02/02.1.png" width="500"/>
+
+##### Step 02: Drag a tReplace component on the work space and set their properties
+
+<img src="Images/Ex02/02.2.png" width="500"/>
+
+##### Step 03: Run Talend job
+
+<img src="Images/Ex02/02.3.png" width="500"/>
+
+##### Step 04: Check the result
+
+<img src="Images/Ex02/02.4.png" width="500"/>
+
+## Exercise 03
+
+```
+Leer la tabla “Actores” y volcarlo a un fichero JSON.
+`
