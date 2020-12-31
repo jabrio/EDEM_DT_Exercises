@@ -19,7 +19,7 @@ Proporciona una SQL que muestre los siguiente datos:
 ```
 SELECT first_name,last_name FROM actor
 ```
-<img src="SQL/Images/01.png" width="300"/>
+<img src="Images/01.png" width="300"/>
 
 ## Exercise 02
 
@@ -36,7 +36,7 @@ Proporciona una SQL que muestre los siguiente datos:
 SELECT actor.first_name, film.title 
 FROM actor JOIN (film JOIN film_actor ON film.film_id=film_actor.film_id) ON actor.actor_id=film_actor.actor_id
 ```
-<img src="SQL/Images/02.png" width="500"/>
+<img src="Images/02.png" width="500"/>
 
 ## Exercise 03
 
@@ -56,7 +56,7 @@ FROM actor JOIN (film JOIN film_actor ON film.film_id=film_actor.film_id) ON act
 GROUP BY actor.actor_id 
 ORDER BY COUNT DESC
 ```
-<img src="SQL/Images/03.png" width="500"/>
+<img src="Images/03.png" width="500"/>
 
 ## Exercise 04
 
@@ -74,7 +74,7 @@ SELECT film.title, count (distinct rental.rental_id)
 FROM film JOIN (inventory JOIN rental ON rental.inventory_id=inventory.inventory_id) ON film.film_id=inventory.film_id
 GROUP BY film.film_id
 ```
-<img src="SQL/Images/04.png" width="500"/>
+<img src="Images/04.png" width="500"/>
 
 ## Exercise 05
 
@@ -93,7 +93,7 @@ FROM film JOIN (inventory JOIN (rental JOIN payment ON payment.rental_id=rental.
 ON rental.inventory_id=inventory.inventory_id) ON film.film_id=inventory.film_id
 GROUP BY film.film_id
 ```
-<img src="SQL/Images/05.png" width="500"/>
+<img src="Images/05.png" width="500"/>
 
 ## Exercise 06
 
@@ -112,8 +112,8 @@ GROUP BY customer.customer_id
 ORDER BY SUM DESC
 LIMIT 1
 ```
-<img src="SQL/Images/06_A.png" width="500"/>
-<img src="SQL/Images/06_B.png" width="500"/>
+<img src="Images/06_A.png" width="500"/>
+<img src="Images/06_B.png" width="500"/>
 
 ## Exercise 07
 
@@ -132,5 +132,5 @@ GROUP BY customer.customer_id
 ORDER BY COUNT DESC
 LIMIT 1
 ```
-<img src="SQL/Images/07_A.png" width="500"/>
-<img src="SQL/Images/07_B.png" width="500"/>
+<img src="Images/07_A.png" width="500"/>
+<img src="Images/07_B.png" width="500"/>
