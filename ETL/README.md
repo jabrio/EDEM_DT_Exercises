@@ -11,8 +11,6 @@
 Leer un archivo CSV y escribirlo a fichero JSON en la misma carpeta.
 ```
 
-### Solution
-
 ##### Step 01: Load the CSV file as "File Delimited"
 
 <img src="Images/Ex01/01.1.png" width="500"/>
