@@ -14,7 +14,7 @@ Proporciona una SQL que muestre los siguiente datos:
 
 ```
 
-### Solution
+#### Solution
 
 ```
 SELECT first_name,last_name FROM actor
@@ -30,7 +30,7 @@ Proporciona una SQL que muestre los siguiente datos:
 
 ```
 
-### Solution
+#### Solution
 
 ```
 SELECT actor.first_name, film.title 
@@ -48,7 +48,7 @@ Proporciona una SQL que muestre los siguiente datos:
 
 ```
 
-### Solution
+#### Solution
 
 ```
 SELECT actor.first_name, count (film_actor.actor_id) 
@@ -67,7 +67,7 @@ Proporciona una SQL que muestre los siguiente datos:
 
 ```
 
-### Solution
+#### Solution
 
 ```
 SELECT film.title, count (distinct rental.rental_id)
@@ -85,7 +85,7 @@ Proporciona una SQL que muestre los siguiente datos:
 
 ```
 
-### Solution
+#### Solution
 
 ```
 SELECT film.title, SUM (payment.amount)
@@ -103,7 +103,7 @@ Proporciona una SQL que muestre los siguiente datos:
 
 ```
 
-### Solution
+#### Solution
 
 ```
 SELECT customer.customer_id, customer.first_name, customer.last_name, SUM(payment.amount)
@@ -123,7 +123,7 @@ Proporciona una SQL que muestre los siguiente datos:
 
 ```
 
-### Solution
+#### Solution
 
 ```
 SELECT customer.customer_id, customer.first_name, customer.last_name, count (distinct rental.rental_id)
