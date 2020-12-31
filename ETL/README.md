@@ -157,3 +157,38 @@ Cargar una tabla con el dinero gastado por usuario, nombre y apellido.
 ##### Step 06: Check the results on PgAdmin
 
 <img src="Images/Ex06/06.6.png" width="500"/>
+
+
+## Exercise 07
+
+```
+Cargar una tabla con el número de veces que se ha alquilado cada película, solo con aquellas que han sido alquiladas al menos una vez.
+```
+
+##### Step 01: From PgAdmin, create a table with required result
+
+<img src="Images/Ex07/07.2.png" width="500"/>
+
+##### Step 02: Drag required tables from dvdrental database as input file and the new created table as output file on the workspace
+
+<img src="Images/Ex07/07.1.png" width="500"/>
+
+##### Step 03: Drag "tMap" component on the workspace and set required operations
+
+<img src="Images/Ex07/07.4.png" width="500"/>
+
+##### Step 04: Drag "tAggregateRow" component on the workspace and set required properties
+
+<img src="Images/Ex07/07.5.png" width="500"/>
+
+##### Step 05: Drag "tSortRow" component on the workspace and set required properties
+
+<img src="Images/Ex07/07.3.png" width="500"/>
+
+##### Step 06: Run Talend job
+
+<img src="Images/Ex07/07.6.png" width="500"/>
+
+##### Step 07: Check the results on PgAdmin
+
+<img src="Images/Ex07/07.7.png" width="500"/>
