@@ -21,7 +21,7 @@ Leer un archivo CSV y escribirlo a fichero JSON en la misma carpeta.
 
 <img src="Images/Ex01/01.2.png" width="500"/>
 
-##### Step 03: Put the input and output file on the work space
+##### Step 03: Put the input and output file on the workspace
 
 <img src="Images/Ex01/01.3.png" width="500"/>
 <img src="Images/Ex01/01.4.png" width="500"/>
@@ -41,7 +41,7 @@ Leer un archivo CSV y escribirlo a fichero JSON en la misma carpeta.
 Debéis leer un fichero CSV y reemplazar Portugal por “Pt” y France por “Fr”.
 ```
 
-##### Step 01: Put "ALUMNOS.csv" as input file and a JSON as output file on the work space
+##### Step 01: Put "ALUMNOS.csv" as input file and a JSON as output file on the workspace
 
 <img src="Images/Ex02/02.1.png" width="500"/>
 
@@ -78,3 +78,117 @@ Leer la tabla “Actores” y volcarlo a un fichero JSON.
 ##### Step 04: Check the result
 
 <img src="Images/Ex03/03.4.png" width="500"/>
+
+## Exercise 04
+
+```
+Agregar las películas por rating y mostrar un count, volcar a JSON el resultado.
+```
+
+##### Step 01: Drag "Film" from dvdrental database as input file and a JSON as output file on the workspace
+
+<img src="Images/Ex04/04.1.png" width="500"/>
+
+##### Step 02: Drag "tAggregateRow" component on the workspace and set required properties
+
+<img src="Images/Ex04/04.2.png" width="500"/>
+
+##### Step 03: Set required operations
+
+<img src="Images/Ex04/04.3.png" width="500"/>
+
+##### Step 04: Run Talend job
+
+<img src="Images/Ex04/04.4.png" width="500"/>
+
+##### Step 05: Check the results
+
+<img src="Images/Ex04/04.5.png" width="500"/>
+
+## Exercise 05
+
+```
+Realizar un JOIN entre Actor | Film | Film_Actor y volcar a JSON un fichero con los campos: Nombre, Apellido y Película.
+```
+
+##### Step 01: Drag required tables from dvdrental database as input file and a JSON as output file on the workspace
+
+<img src="Images/Ex05/05.1.png" width="500"/>
+
+##### Step 02: Drag "tMap" component on the workspace and set required operations
+
+<img src="Images/Ex05/05.3.png" width="500"/>
+
+##### Step 03: Run Talend job
+
+<img src="Images/Ex05/05.4.png" width="500"/>
+
+##### Step 04: Check the results
+
+<img src="Images/Ex05/05.5.png" width="500"/>
+
+
+## Exercise 06
+
+```
+Cargar una tabla con el dinero gastado por usuario, nombre y apellido.
+```
+
+##### Step 01: From PgAdmin, create a table with required result
+
+<img src="Images/Ex06/06.1.png" width="500"/>
+
+##### Step 02: Drag required tables from dvdrental database as input file and the new created table as output file on the workspace
+
+<img src="Images/Ex06/06.2.png" width="500"/>
+
+##### Step 03: Drag "tMap" component on the workspace and set required operations
+
+<img src="Images/Ex06/06.3.png" width="500"/>
+
+##### Step 04: Drag "tAggregateRow" component on the workspace and set required properties
+
+<img src="Images/Ex06/06.4.png" width="500"/>
+
+##### Step 05: Run Talend job
+
+<img src="Images/Ex06/06.5.png" width="500"/>
+
+##### Step 06: Check the results on PgAdmin
+
+<img src="Images/Ex06/06.6.png" width="500"/>
+
+
+## Exercise 07
+
+```
+Cargar una tabla con el número de veces que se ha alquilado cada película, solo con aquellas que han sido alquiladas al menos una vez.
+```
+
+##### Step 01: From PgAdmin, create a table with required result
+
+<img src="Images/Ex07/07.2.png" width="500"/>
+
+##### Step 02: Drag required tables from dvdrental database as input file and the new created table as output file on the workspace
+
+<img src="Images/Ex07/07.1.png" width="500"/>
+
+##### Step 03: Drag "tMap" component on the workspace and set required operations
+
+<img src="Images/Ex07/07.4.png" width="500"/>
+
+##### Step 04: Drag "tAggregateRow" component on the workspace and set required properties
+
+<img src="Images/Ex07/07.5.png" width="500"/>
+
+##### Step 05: Drag "tSortRow" component on the workspace and set required properties
+
+<img src="Images/Ex07/07.3.png" width="500"/>
+
+##### Step 06: Run Talend job
+
+<img src="Images/Ex07/07.6.png" width="500"/>
+
+##### Step 07: Check the results on PgAdmin
+
+<img src="Images/Ex07/07.7.png" width="500"/>
