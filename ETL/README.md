@@ -117,14 +117,14 @@ Realizar un JOIN entre Actor | Film | Film_Actor y volcar a JSON un fichero con 
 
 ##### Step 02: Drag "tMap" component on the workspace and set required operations
 
-<img src="Images/Ex05/05.2.png" width="500"/>
+<img src="Images/Ex05/05.3.png" width="500"/>
 
 ##### Step 03: Run Talend job
 
-<img src="Images/Ex05/05.3.png" width="500"/>
+<img src="Images/Ex05/05.4.png" width="500"/>
 
 ##### Step 04: Check the results
 
-<img src="Images/Ex05/05.4.png" width="500"/>
+<img src="Images/Ex05/05.5.png" width="500"/>
 
 
