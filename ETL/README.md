@@ -128,3 +128,32 @@ Realizar un JOIN entre Actor | Film | Film_Actor y volcar a JSON un fichero con 
 <img src="Images/Ex05/05.5.png" width="500"/>
 
 
+## Exercise 06
+
+```
+Cargar una tabla con el dinero gastado por usuario, nombre y apellido.
+```
+
+##### Step 01: From PgAdmin, create a table with required result
+
+<img src="Images/Ex06/06.1.png" width="500"/>
+
+##### Step 02: Drag required tables from dvdrental database as input file and the new created table as output file on the workspace
+
+<img src="Images/Ex06/06.2.png" width="500"/>
+
+##### Step 03: Drag "tMap" component on the workspace and set required operations
+
+<img src="Images/Ex06/06.3.png" width="500"/>
+
+##### Step 04: Drag "tAggregateRow" component on the workspace and set required properties
+
+<img src="Images/Ex06/06.4.png" width="500"/>
+
+##### Step 05: Run Talend job
+
+<img src="Images/Ex06/06.5.png" width="500"/>
+
+##### Step 06: Check the results on PgAdmin
+
+<img src="Images/Ex06/06.6.png" width="500"/>
