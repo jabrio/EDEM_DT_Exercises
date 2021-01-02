@@ -15,7 +15,6 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 #### Part 02
 
 ```
-PARTE 02:
 Existen otras fuentes de datos que proporcionan también llamadas al 311 de otras zonas, 
 opcionalmente podéis concatenar más datasets y pintarlos de manera conjunta.
 ```
