@@ -11,8 +11,6 @@
 Leer un archivo CSV y escribirlo a fichero JSON en la misma carpeta.
 ```
 
-### Solution
-
 ##### Step 01: Load the CSV file as "File Delimited"
 
 <img src="Images/Ex01/01.1.png" width="500"/>
@@ -192,3 +190,53 @@ Cargar una tabla con el número de veces que se ha alquilado cada película, sol
 ##### Step 07: Check the results on PgAdmin
 
 <img src="Images/Ex07/07.7.png" width="500"/>
+
+
+## Exercise 08
+
+```
+BigQuery to Talend, filtrando algún elemento.
+```
+### Option A: CData Driver
+
+[CData instructions](https://www.cdata.com/kb/tech/bigquery-jdbc-talend.rst)
+
+##### Step 01: Update BigQuery database connection through downloaded driver
+
+<img src="Images/Ex08/08.1.png" width="500"/>
+
+##### Step 02: Extract database schema
+
+<img src="Images/Ex08/08.2.png" width="500"/>
+
+##### Step 03: Drag required table from BigQuery database as input file and JSON as output file on the workspace
+
+<img src="Images/Ex08/08.3.png" width="500"/>
+
+##### Step 04: Make the query to obtain the result
+
+<img src="Images/Ex08/08.4.png" width="500"/>
+
+##### Step 05: Run Talend job and check the result
+
+<img src="Images/Ex08/08.5.png" width="500"/>
+
+### Option B
+
+[BigQuery Service Account instructions](https://www.progress.com/tutorials/jdbc/connect-and-query-google-bigquery-using-jdbc-connector)
+
+##### Step 01: Create a service account in GCP, as BigQuery Admin, and then create a key
+
+<img src="Images/Ex08/08.6.png" width="500"/>
+
+##### Step 02: Drag "tBigQueryInput" component as input file and JSON as output file on the workspace
+
+<img src="Images/Ex08/08.7.png" width="500"/>
+
+##### Step 03: Run Talend Job
+
+<img src="Images/Ex08/08.8.png" width="500"/>
+
+##### Step 04: Check the result
+
+<img src="Images/Ex08/08.5.png" width="500"/>
