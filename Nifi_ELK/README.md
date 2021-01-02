@@ -76,6 +76,7 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 ## Part 02: Combine with other datasets.
 
 ##### Step 01: Follow the same previous steps and visualize the data.
+###### source: [LA Open Data](https://data.lacity.org/)
 
 <img src="Images/10.png" width="500"/>
 
