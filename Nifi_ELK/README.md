@@ -60,7 +60,7 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 
 <img src="Images/07.png" width="500"/>
 
-##### Step 07: Now, create again a "Index Pattern" with the new index. Now, check that locations is geo_point type.
+##### Step 07: Now, create again a "Index Pattern" with the new index. Now, check that "location" is geo_point type.
 
 <img src="Images/08_.png" width="500"/>
 
