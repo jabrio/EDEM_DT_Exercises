@@ -56,7 +56,7 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 
 ##### Step 06: Go to Kibana console and create a new index through Reindex API
 
-###### Instructions:[Reindex API Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html)
+###### Instructions: [Reindex API Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html)
 
 <img src="Images/07.png" width="500"/>
 
