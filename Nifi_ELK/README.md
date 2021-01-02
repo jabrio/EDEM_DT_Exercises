@@ -62,7 +62,7 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 
 ##### Step 07: Now, create again a "Index Pattern" with the new index. Now, check that locations is geo_point type.
 
-<img src="Images/08.png" width="500"/>
+<img src="Images/08_.png" width="500"/>
 
 ##### Step 08: Visualize the data.
 
