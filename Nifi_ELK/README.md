@@ -56,11 +56,11 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 
 ##### Step 06: Go to Kibana console and create a new index through Reindex API
 
-###### Instructions:[Reindex API Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html)
+###### Instructions: [Reindex API Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html)
 
 <img src="Images/07.png" width="500"/>
 
-##### Step 07: Now, create again a "Index Pattern" with the new index. Now, check that locations is geo_point type.
+##### Step 07: Now, create again a "Index Pattern" with the new index. Now, check that "location" is geo_point type.
 
 <img src="Images/08_.png" width="500"/>
 
@@ -76,7 +76,7 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 ## Part 02: Combine with other datasets.
 
 ##### Step 01: Follow the same previous steps and visualize the data.
-###### Source: [LA Open Data](https://data.lacity.org/)
+###### Source: [Santa Mónica Open Data](https://data.smgov.net/Public-Services/Closed-311-Requests/tsas-mvez)
 
 <img src="Images/10.png" width="500"/>
 
