@@ -56,7 +56,7 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 
 ##### Step 06: Go to Kibana console and create a new index through Reindex API
 
-[Reindex API instructions](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html)
+###### Instructions:[Reindex API Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html)
 
 <img src="Images/07.png" width="500"/>
 
@@ -76,7 +76,7 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 ## Part 02: Combine with other datasets.
 
 ##### Step 01: Follow the same previous steps and visualize the data.
-###### source: [LA Open Data](https://data.lacity.org/)
+###### Source: [LA Open Data](https://data.lacity.org/)
 
 <img src="Images/10.png" width="500"/>
 
