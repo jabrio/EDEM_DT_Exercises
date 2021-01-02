@@ -76,7 +76,7 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 ## Part 02: Combine with other datasets.
 
 ##### Step 01: Follow the same previous steps and visualize the data.
-###### Source: [LA Open Data](https://data.lacity.org/)
+###### Source: [Santa Mónica Open Data](https://data.smgov.net/Public-Services/Closed-311-Requests/tsas-mvez)
 
 <img src="Images/10.png" width="500"/>
 
