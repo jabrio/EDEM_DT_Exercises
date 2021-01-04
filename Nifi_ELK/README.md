@@ -80,6 +80,15 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 
 <img src="Images/10.png" width="500"/>
 
-##### Step 02: Go to Kibana Maps and create a layer for each dataset.
+##### Step 02: Combine the data in one visualization.
+
+##### Option A: Go to Kibana Maps and create a layer for each dataset.
 
 <img src="Images/11.png" width="500"/>
+
+##### Option B: Create a "Index Pattern" in kibana from two indexes.
+
+###### Tip: should be named similarly
+
+<img src="Images/14.png" width="500"/>
+<img src="Images/15.png" width="500"/>
