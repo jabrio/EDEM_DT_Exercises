@@ -86,9 +86,9 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 
 <img src="Images/11.png" width="500"/>
 
-##### Option B: Create a "Index Pattern" in kibana from two indexes.
+##### Option B: Create a "Index Pattern" in kibana from two indices.
 
-###### Tip: should be named similarly
+###### Tip: Should be named similarly
 
 <img src="Images/14.png" width="500"/>
 <img src="Images/15.png" width="500"/>
