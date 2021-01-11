@@ -24,9 +24,7 @@ opcionalmente podéis concatenar más datasets y pintarlos de manera conjunta.
 ##### Step 01: Prepare a Docker-compose file with the following containers
 
 | Component | Port |
-| --- | --- |
-| Logstash | 9600 | 
-| Filebeat |  | 
+| --- | --- | 
 | Kibana | 5601 |
 | Elasticsearch | 9200 |
 | Nifi | 8080 |
