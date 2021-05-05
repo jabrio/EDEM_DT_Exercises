@@ -24,9 +24,7 @@ opcionalmente podéis concatenar más datasets y pintarlos de manera conjunta.
 ##### Step 01: Prepare a Docker-compose file with the following containers
 
 | Component | Port |
-| --- | --- |
-| Logstash | 9600 | 
-| Filebeat |  | 
+| --- | --- | 
 | Kibana | 5601 |
 | Elasticsearch | 9200 |
 | Nifi | 8080 |
@@ -80,6 +78,15 @@ Putelasticsearchhttp: Data to elasticsearch, indentified by index.
 
 <img src="Images/10.png" width="500"/>
 
-##### Step 02: Go to Kibana Maps and create a layer for each dataset.
+##### Step 02: Combine the data in one visualization.
+
+##### Option A: Go to Kibana Maps and create a layer for each dataset.
 
 <img src="Images/11.png" width="500"/>
+
+##### Option B: Create a "Index Pattern" in kibana from two indices.
+
+###### Tip: Should be named similarly
+
+<img src="Images/14.png" width="500"/>
+<img src="Images/15.png" width="500"/>
